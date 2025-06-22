@@ -5,6 +5,9 @@ from pathlib import Path
 
 
 # Add references
+from azure.identity import DefaultAzureCredential
+from azure.ai.agents import AgentsClient
+from azure.ai.agents.models import FilePurpose, CodeInterpreterTool, ListSortOrder, MessageRole
 
 
 def main(): 
